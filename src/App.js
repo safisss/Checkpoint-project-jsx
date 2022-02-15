@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import "./style.css";
+import image from ".././src/image/imageInSrc.jpg";
 
  function App() {
     return (
@@ -9,7 +10,7 @@ import "./style.css";
         <div style={{border: 'solid 1px black', maxWidth: '100vw'}}>
           <h1 className="title red">Your name here</h1>
           <br/>
-          <img src="/imageInSrc.jpg"/>
+          <img src={image}/>
           <br/>
           <img src="/imageInPublic.jpg"/>
         </div>
