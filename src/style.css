@@ -1,0 +1,15 @@
+.title{
+    background-color: bisque;
+    font-size: 40px;
+    color: red;
+
+    }
+
+
+
+ .red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+ }
